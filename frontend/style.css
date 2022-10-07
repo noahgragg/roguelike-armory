@@ -1,0 +1,25 @@
+h1{
+color: white;
+}
+
+body {
+background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d544f1b8-e955-42e2-98a1-17955a8396cd/d8qo4z4-bf3cfda5-870c-444b-a341-91a817e4b31a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q1NDRmMWI4LWU5NTUtNDJlMi05OGExLTE3OTU1YTgzOTZjZFwvZDhxbzR6NC1iZjNjZmRhNS04NzBjLTQ0NGItYTM0MS05MWE4MTdlNGIzMWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hbz1cPwPHA44RNXG0FKcMuBVRuL1xkxW7-0CuEoPCr8');
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-color: #464646;
+
+}
+.itemName {
+background-color: #2a2929;
+border-style: ridge;
+border-color: rgb(161, 161, 161);
+border-width: 3px;
+text-shadow: 1px 1px 1px rgb(189, 196, 203), 1px 1px 1px black;
+color: orange
+}
+ul{
+    color: rgb(229, 229, 229);
+    text-shadow: 1px 1px 1px rgb(189, 196, 203), 1px 1px 1px black;
+}

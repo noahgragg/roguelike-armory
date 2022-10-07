@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="'en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Roguelike Armory</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" defer src="webpage.js"></script>
+    </head>
+    <body>
+        <h1>Grab Something From the Armory</h1>
+        <div id="user-section">
+        <label id="selector">Select Loot Type:</label>
+        <select name="lootType" id="lootType">
+            <option value="Armor" class="rouge">Armor</option>
+            <option value="Weapons" class="rouge">Weapons</option>
+            <option value="Spells" class="rouge">Spells</option>
+        </select>
+        <label for="Loot">Select Item:</label>
+        <select id="Loot" id="Loot">
+            <option value="all">All Items</option>
+        </select>
+        <button id="search">Search</button>
+        <input type="text" name="search bar" id="name-it" placeholder="name"/> <!-- value="name" onfocus="javascript:this.value=''" onblur="javascript:if(this.value.length ===0 ){this.value='name'}"/> -->
+        <input type="text" name="search bar" id="what-type" placeholder="type"/>
+        <input type="text" name="search bar" id="what-damage" placeholder="damage"/>
+        <input type="text" name="search bar" id="what-speed" placeholder="speed"/>
+        <button id="create">Send It</button>
+        </div>
+        <div id="results">
+            <p>Pick Your Poison</p>
+        </div>
+        
+        
+    </body>
+</html>
